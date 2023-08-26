@@ -6,9 +6,12 @@ import { blockRouterMetaData as CSSCasscadesblockRouterMetaData } from './Select
 
 import { blockRouterMetaData as TextFundamentsblockRouterMetaData } from './TextFundaments/router-data';
 
+import { blockRouterMetaData as StandardTagsBlockRouterMetaData } from './StandardTags/router-data';
+
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
   CSSCasscadesblockRouterMetaData,
   TextFundamentsblockRouterMetaData,
+  StandardTagsBlockRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
