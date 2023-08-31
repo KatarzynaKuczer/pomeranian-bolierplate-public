@@ -1,0 +1,9 @@
+.round-image {
+  /* height: 150px;
+  width: 150px; */
+  border-radius: 100%;
+  background-color: #74747485;
+  /* background-image: url('https://media.licdn.com/dms/image/D4E03AQHREH3X6V-64Q/profile-displayphoto-shrink_800_800/0/1684427938346?e=2147483647&v=beta&t=nsfR5W3Mi-du6tI1pZsn7_Ouar0KhMaDltWJu23MnyA'); */
+  background-position: center;
+  background-size: cover;
+}

@@ -1,24 +1,61 @@
-.test {
-  color: blue;
-  font-size: 20px;
-  font-weight: 100;
+.h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0.67em 0;
 }
 
-span {
-  vertical-align: middle;
+.date {
+  font-size: 13.3333px;
 }
 
-/* Elementary property:
-color
-font-size
-font-style
-font-weight
-text-transform
-text-decoration
-text-shadow
-line-height
-letter-spacing
-word-spacing
-text-align
-vertical-align
- */
+.h3 {
+  font-size: 18.72px;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.sub {
+  font-size: 15.6px;
+}
+
+.h5 {
+  font-size: 13.28px;
+  font-weight: 700;
+  margin-bottom: 1.67em;
+}
+
+.i {
+  font-style: italic;
+  vertical-align: text-top;
+}
+
+.bold {
+  font-weight: 700;
+  vertical-align: text-top;
+}
+
+.q::before {
+  content: open-quote;
+}
+
+.q::after {
+  content: close-quote;
+}
+
+.q {
+  vertical-align: text-top;
+}
+.del {
+  text-decoration: line-through;
+  vertical-align: text-top;
+}
+
+.ins {
+  vertical-align: text-top;
+  text-decoration: underline;
+}
+
+.li {
+  display: list-item;
+  margin: 0em 2em;
+}

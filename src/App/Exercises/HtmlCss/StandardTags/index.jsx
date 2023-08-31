@@ -55,10 +55,10 @@ export function StandardTags() {
       <div class="faked-tags">
         <div className="h1">Tytuł</div>
 
-        <div>05.2023</div>
+        <div class="date">05.2023</div>
 
-        <div>
-          H<span>2</span>O is good for you
+        <div className="h3">
+          H<span className="sub">2</span>O is good for you
         </div>
 
         <div>
@@ -68,36 +68,37 @@ export function StandardTags() {
           performance, prevent headaches and constipation, and more.
         </div>
 
-        <div>
+        <div className="h3">
           25<sup>th</sup> birthday
         </div>
 
         <div>
           Make the next birthday you celebrate a special one with a hand-picked
-          happy birthday <span>quote</span> or wish that will surely make that
-          special someone’s day a great day. Whether you’re celebrating your
-          birthday or someone else’s, you can rely on our list of{' '}
-          <span>happy birthday</span> <span>quotes</span> to help put a smile on
-          someone’s face. From inspirational to funny to cute sayings, browse
-          our list of <span>quotes</span> to find one that resonates with you.{' '}
-          <span>Nothing</span> can stop you!
+          happy birthday <span className="q">quote</span> or wish that will
+          surely make that special someone’s day a great day. Whether you’re
+          celebrating your birthday or someone else’s, you can rely on our list
+          of <span className="i">happy birthday</span>{' '}
+          <span className="q">quotes</span> to help put a smile on someone’s
+          face. From inspirational to funny to cute sayings, browse our list of{' '}
+          <span className="q">quotes</span> to find one that resonates with you.{' '}
+          <span className="del">Nothing</span> can stop you!
+        </div>
+
+        <div className="h3">
+          Why not to use <span className="ins">lists</span> ?
         </div>
 
         <div>
-          Why not to use <span>lists</span> ?
-        </div>
-
-        <div>
-          <div>
-            A lot of things to do <span>#todo</span>
+          <div className="h5">
+            A lot of things to do <span className="i">#todo</span>
           </div>
 
           <div>
-            <div>Todo 1</div>
+            <div className="li">Todo 1</div>
 
-            <div>Todo 2</div>
+            <div className="li">Todo 2</div>
 
-            <div>Todo 3</div>
+            <div className="li">Todo 3</div>
           </div>
         </div>
       </div>
