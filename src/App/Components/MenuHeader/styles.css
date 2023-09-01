@@ -1,0 +1,18 @@
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu > * {
+  margin-right: 1em;
+}
+
+.header-user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 100%;
+}
+
+.header-user-position {
+  color: #999999;
+}
