@@ -1,12 +1,21 @@
 import React from 'react';
 
-import { FloatAndPositioning } from './index';
+import { FloatsAndPositioningExercise } from './index';
 
 export const blockRouterMetaData = {
-  path: 'float-and-positioning',
+  path: 'floats-and-positioning-exercise',
   date: '02-09-2023',
-  linkLabel: 'Pozycjonowanie i opływy - ćwiczenie samodzielne',
+  linkLabel: 'HTML & CSS - Pozycje i opływy - Ćwiczenie samodzielne',
   blockNo: 16,
-  element: <FloatAndPositioning />,
-  tags: ['float', 'positioning', 'css', 'absolute'],
+  element: <FloatsAndPositioningExercise />,
+  tags: [
+    'float',
+    'positioning',
+    'css',
+    'absolute',
+    'relative',
+    'sticky',
+    'fixed',
+    'clear',
+  ],
 };

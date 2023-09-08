@@ -16,9 +16,9 @@ export function AppAside() {
             <HouseIcon />
             <NavLink to="dashboard">Dashboard</NavLink>
           </li>
-          {/* <li>
-            <NavLink to="blocks">Bloki</NavLink>
-          </li> */}
+          <li>
+            <NavLink to="material">Material</NavLink>
+          </li>
           <li className="aside-row">
             <EditIcon />
             <NavLink to="exercises">Ćwiczenia</NavLink>
