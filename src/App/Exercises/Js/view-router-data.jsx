@@ -7,6 +7,14 @@ import { blockRouterMetaData as blockRouterMetaDataBoolean } from './Boolean/rou
 import { blockRouterMetaData as blockRouterMetaDataIfSwitch } from './IfSwitch/router-data';
 import { blockRouterMetaData as blockRouterMetaDataNumbers } from './Numbers/router-data';
 import { blockRouterMetaData as blockRouterMetaDataIsNumbersTraining } from './IsNumbersTraining/router-data';
+import { blockRouterMetaData as blockRouterMetaDataComplecsType } from './Complecs-type/router-data';
+import { blockRouterMetaData as blockRouterMetaDataBlock22Warmup } from './Block22Warmup/router-data';
+import { blockRouterMetaData as blockRouterMetaDataHitTheMoleGame } from './HitTheMoleGame/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJsFunctionBasics } from './JsFunctionBasics/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJsNumbersTraining } from './IsNumbersTraining/router-data';
+import { blockRouterMetaData as blockRouterMetaDataSetTimeout } from './SetTimeout/router-data';
+import { blockRouterMetaData as blockRouterMetaDataVanishString } from './VanishString/router-data';
+import { blockRouterMetaData as blockRouterMetaDataTestZone } from './TestZone/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -16,5 +24,13 @@ export const blockRouterMetaData = [
   blockRouterMetaDataIfSwitch,
   blockRouterMetaDataNumbers,
   blockRouterMetaDataIsNumbersTraining,
+  blockRouterMetaDataComplecsType,
+  blockRouterMetaDataBlock22Warmup,
+  blockRouterMetaDataHitTheMoleGame,
+  blockRouterMetaDataJsFunctionBasics,
+  blockRouterMetaDataJsNumbersTraining,
+  blockRouterMetaDataSetTimeout,
+  blockRouterMetaDataVanishString,
+  blockRouterMetaDataTestZone,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

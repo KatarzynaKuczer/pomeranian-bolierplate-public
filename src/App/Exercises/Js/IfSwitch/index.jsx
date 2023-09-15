@@ -1,17 +1,19 @@
-export const Exercise = () => {
-  // -------------------------------------------------------
+import './styles.css';
+
+export const IfSwitch = () => {
+  //---------------------------------------------------------
   //
   // IF - instrukcje warunkowe
   //
-  // -------------------------------------------------------
+  //---------------------------------------------------------
 
-  //   if (true) {
-  //     console.log('Ten kod wywoła się zawsze bo true!!');
-  //   }
+  // if (true) {
+  //   console.log('Ten kod wywoła się zawsze, bo true!');
+  // }
 
-  //   if (false) {
-  //     console.log('Ten kod się nie wykona bo false!!');
-  //   }
+  // if (false) {
+  //   console.log('Ten kod się nie wywoła, bo false!');
+  // }
 
   //
   // IF
@@ -25,58 +27,46 @@ export const Exercise = () => {
   } else if (isSunny) {
     console.log('Weź okulary przeciwsłoneczne!');
   } else {
-    console.log('Pogoda jest ok!');
+    console.log('Pogoda nie działa..');
   }
 
   //
   // SHORTEN IF
   //
 
-  //   if (isRainy) {
-  //     console.log('Weź parasol!');
-  //     console.log('Weź parasol dla kolegi/koleżanki!');
-  //   }
-
   if (isRainy) console.log('Weź parasol!');
   if (isSunny) console.log('Weź okulary przeciwsłoneczne!');
-  if (!isRainy && !isSunny) console.log('Pogoda jest ok!');
+  if (!isRainy && !isSunny) console.log('Pogoda nie działa');
 
   //
   // TERNARY OPERATOR
   //
-  // (warunek) ? 'wykonaj jeśli spełniony warunek' : 'wykonaj jeśli nie spełniony warunek'
 
   const age = 18;
-
-  //   if (age >= 18) {
-  //     console.log('Możesz kupić piwo');
-  //   } else {
-  //     console.log('Nie możesz kupić piwa');
-  //   }
 
   const isAdultMessage =
     age >= 18 ? 'Możesz kupić piwo' : 'Nie możesz kupić piwa';
   console.log(isAdultMessage);
 
-  // rozszerzenie z kolejnym ternerary operatorem
-  const moneyAmount = 0;
+  // rozszerzenie z kolejnym ternary
 
-  const isAdultMessageExteneded =
+  const moneyAmout = 0;
+
+  const isAdultMessageExtended =
     age >= 18
-      ? moneyAmount > 0
+      ? moneyAmout > 0
         ? 'Możesz kupić piwo'
-        : 'Nie możesz kupić piwa - nie masz pieniędzy'
+        : 'Nie możesz kupić piwa - brak pieniędzy'
       : 'Nie możesz kupić piwa';
-
-  console.log(isAdultMessageExteneded);
+  console.log(isAdultMessageExtended);
 
   //
   // SWITCH
   //
 
-  const dayOfWeek = 'Środa';
+  const dayOfWeak = 'Środa';
 
-  switch (dayOfWeek) {
+  switch (dayOfWeak) {
     case 'Monday':
       console.log('Poniedziałek');
       break;
@@ -84,27 +74,26 @@ export const Exercise = () => {
       console.log('Wtorek');
       break;
     default:
-      console.log('Nie znam tego dnia tygodnia');
+      console.log('Nie znam tego dnia tygodnia!');
   }
 
   //
-  // EARLY RETURN
+  // EARLY RETURN - po pierwszym true kończy działanie
   //
 
   const getWeatherMessage = (isRainy, isSunny) => {
-    // early return
     if (isRainy) {
-      return 'Weź parasol!';
+      return 'Weź parasol';
     }
 
     if (isSunny) {
-      return 'Weź okulary przeciwsłoneczne!';
+      return 'Weź okulary przeciwsłoneczne';
     }
 
-    return 'Pogoda jest ok!';
+    return 'Pogoda nie działa..';
   };
 
-  console.log(getWeatherMessage(true, false));
+  console.log(getWeatherMessage(isRainy, isSunny));
 
   return <div>If switch</div>;
 };
