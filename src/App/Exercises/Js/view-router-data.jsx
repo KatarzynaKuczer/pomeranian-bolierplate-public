@@ -15,6 +15,7 @@ import { blockRouterMetaData as blockRouterMetaDataJsNumbersTraining } from './I
 import { blockRouterMetaData as blockRouterMetaDataSetTimeout } from './SetTimeout/router-data';
 import { blockRouterMetaData as blockRouterMetaDataVanishString } from './VanishString/router-data';
 import { blockRouterMetaData as blockRouterMetaDataTestZone } from './TestZone/router-data';
+import { blockRouterMetaData as blockRouterMetaDataMemoGame } from './MemoGame/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -32,5 +33,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataSetTimeout,
   blockRouterMetaDataVanishString,
   blockRouterMetaDataTestZone,
+  blockRouterMetaDataMemoGame,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
