@@ -1,0 +1,23 @@
+.memo-game {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0em;
+  font-size: 1.125rem;
+  line-height: 2.125rem;
+  color: #222;
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.memo-result {
+  margin: 2em;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+.memo-tile-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  width: min-content;
+}
