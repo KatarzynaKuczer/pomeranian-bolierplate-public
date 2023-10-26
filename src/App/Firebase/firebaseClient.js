@@ -19,3 +19,5 @@ export const logout = () => {
   const auth = getAuth();
   return signOut(auth);
 };
+
+// plik konfiguracyjny
